@@ -26,7 +26,7 @@ let categories = [];
  */
 
 async function getCategoryIds() {
-    const res = await axios.get(`http://jservice.io/api/random?count=6`);
+    const res = await axios.get(`https://jservice.io/api/random?count=6`);
     return res.data.map(function(obj){
         return obj.category_id;
     })
@@ -45,7 +45,7 @@ async function getCategoryIds() {
  */
 
 async function getCategory(catId) {
-    const res = await axios.get(`http://jservice.io/api/category?id=${catId}`);
+    const res = await axios.get(`https://jservice.io/api/category?id=${catId}`);
     const clues = [];
     console.log(res);
 
