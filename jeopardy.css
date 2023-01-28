@@ -1,10 +1,40 @@
-/* some colors you may find useful:
-  #115ff4
+body{
+  font-family: Quicksand;
+  background-color: white;
+  text-align: center;
+}  
+  /* #115ff4
   #060ce9
   #28a200
   #8d2ab5
-  #74119c
-*/
+  #74119c */
+  
+header{
+  padding: 1rem;
+}
+button {
+  font-family: Quicksand;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+th {
+  padding: 2rem;
+  min-width: 10rem;
+  max-width: 5rem;
+}
+td {
+  padding: 2rem;
+  min-width: 10rem;
+  max-width: 5rem;
+  min-height: 60rem;
+  max-height: 5rem;
+}
+
 #spin-container {
   display: none;
 }

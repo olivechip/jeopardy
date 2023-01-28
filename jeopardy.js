@@ -122,12 +122,14 @@ function handleClick(evt) {
 function showLoadingView() {
     $(`thead`).empty();
     $(`tbody`).empty();
+    $(`button`).hide();
     $(`#spin-container`).show();
 }
 
 /** Remove the loading spinner and update the button used to fetch data. */
 
 function hideLoadingView() {
+    $(`button`).show();
     $(`#spin-container`).hide();
 }
 
